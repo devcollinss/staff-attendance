@@ -1,6 +1,6 @@
 <?php
 
-include '../connection.php';
+include './connection.php';
 
 $ids = filter_var($_GET['key'], FILTER_SANITIZE_NUMBER_INT);
 if (!$ids) {

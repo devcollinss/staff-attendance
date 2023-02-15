@@ -1,6 +1,6 @@
 <?php
 // Connect to the MySQL database
-include '../connection.php';
+include './connection.php';
 // Prepare the statement that updates the data
 $stmt = $conn->prepare("UPDATE staff SET pay = ?, present = ?");
 
